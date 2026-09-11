@@ -44,7 +44,7 @@ The purpose of this project is to raise awareness about phishing attacks and hel
 
 \- `CodeAlpha\_Task2\_Phishing\_Awareness\_Training\_Emin\_Yahyazade.pdf`
 
-\- `screenshots/`
+The PPTX file is the editable presentation version, while the PDF file is included for easy viewing directly in the browser.
 
 
 
