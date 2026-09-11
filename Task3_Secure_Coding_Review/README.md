@@ -194,3 +194,73 @@ Emin Yahyazadə
 
 CodeAlpha Cyber Security Internship - Task 3
 
+
+## Project Evidence
+
+The following screenshots document the complete secure coding review process from environment setup to vulnerability detection, remediation, and final verification.
+
+### 1. Project Structure
+![Project Structure](screenshots/01_project_structure.png)
+
+### 2. Environment Setup
+![Environment Setup](screenshots/02_environment_setup.png)
+
+### 3. Security Tools Installed and Verified
+![Security Tools](screenshots/03_tools_installed_and_verified.png)
+
+### 4. Vulnerable Application Creation
+![Vulnerable App Creation](screenshots/04_vulnerable_app_creation.png)
+
+### 5. Vulnerable Application Source Code
+![Vulnerable Application](screenshots/05_vulnerable_app_code.png)
+
+### 6. Bandit Scan of Vulnerable Application
+![Bandit Vulnerable Scan](screenshots/06_bandit_vulnerable_scan.png)
+
+### 7. Vulnerable Scan Report
+![Vulnerable Scan Report](screenshots/07_vulnerable_scan_report.png)
+
+### 8. Security Findings Creation
+![Security Findings Creation](screenshots/08_security_findings_creation.png)
+
+### 9. Security Findings and Manual Review
+![Security Findings](screenshots/09_security_findings.png)
+
+### 10. Secure Application Creation
+![Secure App Creation](screenshots/10_secure_app_creation.png)
+
+### 11. Remediated Secure Application
+![Secure Application](screenshots/11_secure_app_code.png)
+
+### 12. Bandit Re-scan of Secure Application
+![Bandit Secure Scan](screenshots/12_bandit_secure_scan.png)
+
+### 13. Secure Scan Report
+![Secure Scan Report](screenshots/13_secure_scan_report.png)
+
+### 14. Before/After Report Creation
+![Comparison Report Creation](screenshots/14_before_after_report_creation.png)
+
+### 15. Before and After Security Comparison
+![Before After Comparison](screenshots/15_before_after_comparison.png)
+
+### 16. Requirements File Creation
+![Requirements Creation](screenshots/16_requirements_creation.png)
+
+### 17. Project Dependencies
+![Requirements](screenshots/17_requirements_content.png)
+
+### 18. GitIgnore Creation
+![GitIgnore Creation](screenshots/18_gitignore_creation.png)
+
+### 19. GitIgnore Configuration
+![GitIgnore](screenshots/19_gitignore_content.png)
+
+### 20. README Creation
+![README Creation](screenshots/20_readme_creation.png)
+
+### 21. Project Documentation
+![README](screenshots/21_readme_content.png)
+
+### 22. Final Project Structure
+![Final Structure](screenshots/22_final_project_structure.png)
