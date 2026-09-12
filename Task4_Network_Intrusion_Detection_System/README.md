@@ -340,19 +340,19 @@ Real-time JSON alerts were monitored using:
 
 sudo tail -F /var/log/suricata/eve.json | jq --unbuffered '
 
-select(.event\_type=="alert") |
+select(.event_type=="alert") |
 
 {
 
 &#x20; timestamp,
 
-&#x20; src\_ip,
+&#x20; src_ip,
 
-&#x20; src\_port,
+&#x20; src_port,
 
-&#x20; dest\_ip,
+&#x20; dest_ip,
 
-&#x20; dest\_port,
+&#x20; dest_port,
 
 &#x20; proto,
 
@@ -401,141 +401,13 @@ A copy of the extracted custom alert data is included in:
 
 
 ```text
-
-reports/custom\_alerts.json
-
-```
-
-
-
-## Response Mechanism
-
-
-
-A custom Bash response script was implemented:
-
-
-
-```text
-
-scripts/ids\_response.sh
-
-```
-
-
-
-The script reads Suricata alerts from:
-
-
-
-```text
-
-/var/log/suricata/eve.json
-
-```
-
-
-
-The response logic is:
-
-
-
-```text
-
-Severity 3
-
-&#x20;   -> Log alert for monitoring
-
-
-
-Severity 1 or 2
-
-&#x20;   -> Log alert
-
-&#x20;   -> Flag the source IP
-
-&#x20;   -> Add the source IP to the candidate blocklist
-
-```
-
-
-
-The script generates:
-
-
-
-```text
-
-reports/incident\_response.log
-
-reports/candidate\_blocklist.txt
-
-```
-
-
-
-Automatic firewall blocking was intentionally not enabled. This avoids accidentally blocking legitimate administrative traffic such as SSH.
-
-
-
-The candidate blocklist therefore represents addresses requiring further investigation and should not automatically be treated as confirmed malicious hosts.
-
-
-
-## Real-World Alert Detection
-
-
-
-In addition to the controlled custom-rule tests, Suricata generated alerts from the Emerging Threats rule set for inbound traffic observed by the EC2 instance.
-
-
-
-Examples included:
-
-
-
-```text
-
-ET DROP Spamhaus DROP Listed Traffic Inbound
-
-ET DROP Dshield Block Listed Source
-
-ET CINS Active Threat Intelligence Poor Reputation IP
-
-ET SCAN Potential SSH Scan
-
-```
-
-
-
-These alerts demonstrate that the NIDS was actively processing real network traffic in addition to the controlled test traffic.
-
-
-
-## Reports
-
-
-
-The following evidence and report files are included:
-
-
-
-```text
-
 reports/
-
-â”œâ”€â”€ candidate\_blocklist.txt
-
-â”œâ”€â”€ custom\_alerts.json
-
-â”œâ”€â”€ detection\_alerts.txt
-
-â”œâ”€â”€ incident\_response.log
-
-â”œâ”€â”€ suricata\_service\_status.txt
-
-â””â”€â”€ suricata\_version.txt
-
+|-- candidate_blocklist.txt
+|-- custom_alerts.json
+|-- detection_alerts.txt
+|-- incident_response.log
+|-- suricata_service_status.txt
+`-- suricata_version.txt
 ```
 
 
@@ -544,69 +416,44 @@ reports/
 
 
 
-\- `candidate\_blocklist.txt` - Source IP addresses flagged for further investigation.
+\- `candidate_blocklist.txt` - Source IP addresses flagged for further investigation.
 
-\- `custom\_alerts.json` - Structured JSON output for custom Suricata alerts.
+\- `custom_alerts.json` - Structured JSON output for custom Suricata alerts.
 
-\- `detection\_alerts.txt` - Selected Suricata detection events.
+\- `detection_alerts.txt` - Selected Suricata detection events.
 
-\- `incident\_response.log` - Alerts processed by the response script.
+\- `incident_response.log` - Alerts processed by the response script.
 
-\- `suricata\_service\_status.txt` - Suricata service status evidence.
+\- `suricata_service_status.txt` - Suricata service status evidence.
 
-\- `suricata\_version.txt` - Suricata version and build information.
+\- `suricata_version.txt` - Suricata version and build information.
 
 
 
 ## Project Structure
 
-
-
 ```text
-
-Task4\_Network\_Intrusion\_Detection\_System/
-
-â”‚
-
-â”œâ”€â”€ reports/
-
-â”‚   â”œâ”€â”€ candidate\_blocklist.txt
-
-â”‚   â”œâ”€â”€ custom\_alerts.json
-
-â”‚   â”œâ”€â”€ detection\_alerts.txt
-
-â”‚   â”œâ”€â”€ incident\_response.log
-
-â”‚   â”œâ”€â”€ suricata\_service\_status.txt
-
-â”‚   â””â”€â”€ suricata\_version.txt
-
-â”‚
-
-â”œâ”€â”€ rules/
-
-â”‚   â””â”€â”€ local.rules
-
-â”‚
-
-â”œâ”€â”€ scripts/
-
-â”‚   â””â”€â”€ ids\_response.sh
-
-â”‚
-
-â”œâ”€â”€ screenshots/
-
-â”‚   â””â”€â”€ Project implementation evidence
-
-â”‚
-
-â””â”€â”€ README.md
-
+Task4_Network_Intrusion_Detection_System/
+|-- reports/
+|   |-- candidate_blocklist.txt
+|   |-- custom_alerts.json
+|   |-- detection_alerts.txt
+|   |-- incident_response.log
+|   |-- nids_report.md
+|   |-- suricata_service_status.txt
+|   `-- suricata_version.txt
+|
+|-- rules/
+|   `-- local.rules
+|
+|-- scripts/
+|   `-- ids_response.sh
+|
+|-- screenshots/
+|   `-- Project implementation evidence
+|
+`-- README.md
 ```
-
-
 
 ## Project Evidence
 
@@ -616,7 +463,7 @@ Task4\_Network\_Intrusion\_Detection\_System/
 
 
 
-!\[Suricata Installation](screenshots/01\_suricata\_installation.png)
+![Suricata Installation](screenshots/01_suricata_installation.png)
 
 
 
@@ -624,7 +471,7 @@ Task4\_Network\_Intrusion\_Detection\_System/
 
 
 
-!\[Initial Service Failure](screenshots/02\_suricata\_initial\_service\_failure.png)
+![Initial Service Failure](screenshots/02_suricata_initial_service_failure.png)
 
 
 
@@ -636,7 +483,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Rules Update](screenshots/03\_suricata\_rules\_update.png)
+![Rules Update](screenshots/03_suricata_rules_update.png)
 
 
 
@@ -644,15 +491,15 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Suricata Running](screenshots/04\_suricata\_service\_running.png)
+![Suricata Running](screenshots/04_suricata_service_running.png)
 
 
 
-### 5. HOME\_NET and Local Rule Setup
+### 5. HOME_NET and Local Rule Setup
 
 
 
-!\[HOME NET Setup](screenshots/05\_home\_net\_and\_local\_rule\_setup.png)
+![HOME NET Setup](screenshots/05_home_net_and_local_rule_setup.png)
 
 
 
@@ -660,7 +507,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[ICMP Rule](screenshots/06\_custom\_icmp\_rule\_creation.png)
+![ICMP Rule](screenshots/06_custom_icmp_rule_creation.png)
 
 
 
@@ -668,7 +515,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Configuration Edit](screenshots/07\_suricata\_configuration\_edit.png)
+![Configuration Edit](screenshots/07_suricata_configuration_edit.png)
 
 
 
@@ -676,7 +523,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Local Rules Enabled](screenshots/08\_local\_rules\_enabled\_in\_config.png)
+![Local Rules Enabled](screenshots/08_local_rules_enabled_in_config.png)
 
 
 
@@ -684,7 +531,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Configuration Test](screenshots/09\_suricata\_configuration\_test.png)
+![Configuration Test](screenshots/09_suricata_configuration_test.png)
 
 
 
@@ -692,7 +539,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[ICMP Test](screenshots/10\_icmp\_test\_traffic.png)
+![ICMP Test](screenshots/10_icmp_test_traffic.png)
 
 
 
@@ -700,7 +547,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[ICMP Alert](screenshots/11\_icmp\_alert\_detected.png)
+![ICMP Alert](screenshots/11_icmp_alert_detected.png)
 
 
 
@@ -708,7 +555,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[EVE JSON Analysis](screenshots/12\_eve\_json\_alert\_analysis.png)
+![EVE JSON Analysis](screenshots/12_eve_json_alert_analysis.png)
 
 
 
@@ -716,7 +563,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Monitoring Setup](screenshots/13\_realtime\_alert\_monitoring\_setup.png)
+![Monitoring Setup](screenshots/13_realtime_alert_monitoring_setup.png)
 
 
 
@@ -724,7 +571,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Real-Time ICMP](screenshots/14\_realtime\_icmp\_test.png)
+![Real-Time ICMP](screenshots/14_realtime_icmp_test.png)
 
 
 
@@ -732,7 +579,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Real-Time Alerts](screenshots/15\_realtime\_suricata\_alerts.png)
+![Real-Time Alerts](screenshots/15_realtime_suricata_alerts.png)
 
 
 
@@ -740,7 +587,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Response Setup](screenshots/16\_response\_script\_setup.png)
+![Response Setup](screenshots/16_response_script_setup.png)
 
 
 
@@ -748,7 +595,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Response Script](screenshots/17\_response\_script\_code.png)
+![Response Script](screenshots/17_response_script_code.png)
 
 
 
@@ -756,7 +603,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Script Permissions](screenshots/18\_response\_script\_permissions.png)
+![Script Permissions](screenshots/18_response_script_permissions.png)
 
 
 
@@ -764,7 +611,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Script Execution](screenshots/19\_response\_script\_execution.png)
+![Script Execution](screenshots/19_response_script_execution.png)
 
 
 
@@ -772,7 +619,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Incident Response](screenshots/20\_incident\_response\_results.png)
+![Incident Response](screenshots/20_incident_response_results.png)
 
 
 
@@ -780,7 +627,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Candidate Blocklist](screenshots/21\_candidate\_blocklist\_results.png)
+![Candidate Blocklist](screenshots/21_candidate_blocklist_results.png)
 
 
 
@@ -788,7 +635,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Additional Rules](screenshots/22\_additional\_custom\_detection\_rules.png)
+![Additional Rules](screenshots/22_additional_custom_detection_rules.png)
 
 
 
@@ -796,7 +643,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[Rule Validation](screenshots/23\_custom\_rules\_validation\_and\_service.png)
+![Rule Validation](screenshots/23_custom_rules_validation_and_service.png)
 
 
 
@@ -804,7 +651,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[SSH Test](screenshots/24\_repeated\_ssh\_test\_execution.png)
+![SSH Test](screenshots/24_repeated_ssh_test_execution.png)
 
 
 
@@ -812,7 +659,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[SSH Alert](screenshots/25\_repeated\_ssh\_alert\_detected.png)
+![SSH Alert](screenshots/25_repeated_ssh_alert_detected.png)
 
 
 
@@ -820,7 +667,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[TCP SYN Test](screenshots/26\_tcp\_syn\_test\_execution.png)
+![TCP SYN Test](screenshots/26_tcp_syn_test_execution.png)
 
 
 
@@ -828,7 +675,7 @@ The initial service issue helped identify that the default interface configurati
 
 
 
-!\[High Volume Alerts](screenshots/27\_high\_volume\_ssh\_alerts.png)
+![High Volume Alerts](screenshots/27_high_volume_ssh_alerts.png)
 
 
 
@@ -903,6 +750,9 @@ The NIDS successfully monitored network traffic, detected controlled suspicious 
 CodeAlpha Cyber Security Internship  
 
 Task 4 - Network Intrusion Detection System
+
+
+
 
 
 
