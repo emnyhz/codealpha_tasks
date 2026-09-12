@@ -1,0 +1,54 @@
+09/12/2026-10:01:06.697792  [**] [1:1000001:1] CODEALPHA ICMP Echo Request Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 172.31.4.239:8 -> 8.8.8.8:0
+09/12/2026-10:01:07.698591  [**] [1:1000001:1] CODEALPHA ICMP Echo Request Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 172.31.4.239:8 -> 8.8.8.8:0
+09/12/2026-10:01:08.700132  [**] [1:1000001:1] CODEALPHA ICMP Echo Request Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 172.31.4.239:8 -> 8.8.8.8:0
+09/12/2026-10:01:09.701705  [**] [1:1000001:1] CODEALPHA ICMP Echo Request Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 172.31.4.239:8 -> 8.8.8.8:0
+09/12/2026-10:01:15.314751  [**] [1:2400016:4827] ET DROP Spamhaus DROP Listed Traffic Inbound group 17 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 93.123.109.230:47249 -> 172.31.4.239:80
+09/12/2026-10:16:18.055269  [**] [1:2400010:4827] ET DROP Spamhaus DROP Listed Traffic Inbound group 11 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 77.90.185.78:57304 -> 172.31.4.239:80
+09/12/2026-10:16:18.055269  [**] [1:2402000:7859] ET DROP Dshield Block Listed Source group 1 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 77.90.185.78:57304 -> 172.31.4.239:80
+09/12/2026-10:18:10.548471  [**] [1:1000001:1] CODEALPHA ICMP Echo Request Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 172.31.4.239:8 -> 8.8.8.8:0
+09/12/2026-10:18:11.549979  [**] [1:1000001:1] CODEALPHA ICMP Echo Request Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 172.31.4.239:8 -> 8.8.8.8:0
+09/12/2026-10:18:12.551517  [**] [1:1000001:1] CODEALPHA ICMP Echo Request Detected [**] [Classification: (null)] [Priority: 3] {ICMP} 172.31.4.239:8 -> 8.8.8.8:0
+09/12/2026-10:24:55.530122  [**] [1:2403363:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 64 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 45.77.61.56:51456 -> 172.31.4.239:22
+09/12/2026-10:25:57.688709  [**] [1:2403573:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 274 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 194.88.98.93:47132 -> 172.31.4.239:22
+09/12/2026-10:48:07.113588  [**] [1:2402000:7859] ET DROP Dshield Block Listed Source group 1 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 147.185.132.213:56837 -> 172.31.4.239:22
+09/12/2026-10:54:45.157658  [**] [1:2403317:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 18 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 16.5.0.236:44202 -> 172.31.4.239:80
+09/12/2026-10:59:48.397042  [**] [1:2403363:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 64 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 45.77.61.56:50432 -> 172.31.4.239:80
+09/12/2026-11:05:28.676420  [**] [1:2403511:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 212 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 170.187.163.117:45155 -> 172.31.4.239:443
+09/12/2026-11:11:00.559558  [**] [1:2403539:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 240 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 185.136.15.90:43392 -> 172.31.4.239:80
+09/12/2026-11:15:26.329200  [**] [1:2403306:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 7 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 8.134.157.132:49594 -> 172.31.4.239:22
+09/12/2026-11:16:56.037181  [**] [1:2400000:4827] ET DROP Spamhaus DROP Listed Traffic Inbound group 1 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 2.57.122.168:51685 -> 172.31.4.239:22
+09/12/2026-11:19:29.174080  [**] [1:2402000:7859] ET DROP Dshield Block Listed Source group 1 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 66.132.186.56:40793 -> 172.31.4.239:443
+09/12/2026-11:29:29.883439  [**] [1:2403572:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 273 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 194.88.98.108:35752 -> 172.31.4.239:80
+09/12/2026-11:34:05.619609  [**] [1:2403422:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 123 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 79.124.58.90:47974 -> 172.31.4.239:80
+09/12/2026-11:37:48.548282  [**] [1:2403429:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 130 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 89.42.231.200:39608 -> 172.31.4.239:80
+09/12/2026-11:41:18.303758  [**] [1:2402000:7859] ET DROP Dshield Block Listed Source group 1 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 65.49.1.208:34997 -> 172.31.4.239:80
+09/12/2026-11:45:19.443570  [**] [1:2403505:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 206 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 165.101.75.111:50874 -> 172.31.4.239:22
+09/12/2026-11:48:07.879334  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 37.114.151.200:7738 -> 172.31.4.239:22
+09/12/2026-11:48:08.477326  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:7739 -> 172.31.4.239:22
+09/12/2026-11:51:48.795888  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 37.114.151.200:10534 -> 172.31.4.239:22
+09/12/2026-11:51:49.098103  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10536 -> 172.31.4.239:22
+09/12/2026-11:51:49.397890  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10538 -> 172.31.4.239:22
+09/12/2026-11:51:49.690371  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10539 -> 172.31.4.239:22
+09/12/2026-11:51:49.988840  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10543 -> 172.31.4.239:22
+09/12/2026-11:51:50.277479  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10547 -> 172.31.4.239:22
+09/12/2026-11:51:50.575273  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10548 -> 172.31.4.239:22
+09/12/2026-11:51:50.854039  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10552 -> 172.31.4.239:22
+09/12/2026-11:51:51.133818  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10553 -> 172.31.4.239:22
+09/12/2026-11:51:51.441958  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10554 -> 172.31.4.239:22
+09/12/2026-11:51:51.738980  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10555 -> 172.31.4.239:22
+09/12/2026-11:51:52.031324  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10556 -> 172.31.4.239:22
+09/12/2026-11:51:52.344739  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10557 -> 172.31.4.239:22
+09/12/2026-11:51:52.646900  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10497 -> 172.31.4.239:22
+09/12/2026-11:51:52.942099  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10498 -> 172.31.4.239:22
+09/12/2026-11:51:53.231336  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10502 -> 172.31.4.239:22
+09/12/2026-11:51:53.525732  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10503 -> 172.31.4.239:22
+09/12/2026-11:51:53.525732  [**] [1:1000003:1] CODEALPHA Possible TCP SYN Port Scan [**] [Classification: (null)] [Priority: 2] {TCP} 37.114.151.200:10503 -> 172.31.4.239:22
+09/12/2026-11:51:53.824801  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10508 -> 172.31.4.239:22
+09/12/2026-11:51:53.824801  [**] [1:1000003:1] CODEALPHA Possible TCP SYN Port Scan [**] [Classification: (null)] [Priority: 2] {TCP} 37.114.151.200:10508 -> 172.31.4.239:22
+09/12/2026-11:51:54.129027  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10509 -> 172.31.4.239:22
+09/12/2026-11:51:54.129027  [**] [1:1000003:1] CODEALPHA Possible TCP SYN Port Scan [**] [Classification: (null)] [Priority: 2] {TCP} 37.114.151.200:10509 -> 172.31.4.239:22
+09/12/2026-11:51:54.423615  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10514 -> 172.31.4.239:22
+09/12/2026-11:51:54.423615  [**] [1:1000003:1] CODEALPHA Possible TCP SYN Port Scan [**] [Classification: (null)] [Priority: 2] {TCP} 37.114.151.200:10514 -> 172.31.4.239:22
+09/12/2026-11:51:54.714976  [**] [1:1000002:1] CODEALPHA Repeated SSH Connection Attempts [**] [Classification: (null)] [Priority: 1] {TCP} 37.114.151.200:10517 -> 172.31.4.239:22
+09/12/2026-11:51:54.714976  [**] [1:1000003:1] CODEALPHA Possible TCP SYN Port Scan [**] [Classification: (null)] [Priority: 2] {TCP} 37.114.151.200:10517 -> 172.31.4.239:22
+09/12/2026-12:02:48.672692  [**] [1:2403479:111652] ET CINS Active Threat Intelligence Poor Reputation IP group 180 [**] [Classification: Misc Attack] [Priority: 2] {TCP} 143.42.1.185:39670 -> 172.31.4.239:80

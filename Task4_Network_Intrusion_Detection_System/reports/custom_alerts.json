@@ -1,0 +1,363 @@
+{
+  "timestamp": "2026-09-12T10:01:06.697792+0000",
+  "src_ip": "172.31.4.239",
+  "src_port": 0,
+  "dest_ip": "8.8.8.8",
+  "dest_port": 0,
+  "proto": "ICMP",
+  "signature_id": 1000001,
+  "signature": "CODEALPHA ICMP Echo Request Detected",
+  "severity": 3
+}
+{
+  "timestamp": "2026-09-12T10:01:07.698591+0000",
+  "src_ip": "172.31.4.239",
+  "src_port": 0,
+  "dest_ip": "8.8.8.8",
+  "dest_port": 0,
+  "proto": "ICMP",
+  "signature_id": 1000001,
+  "signature": "CODEALPHA ICMP Echo Request Detected",
+  "severity": 3
+}
+{
+  "timestamp": "2026-09-12T10:01:08.700132+0000",
+  "src_ip": "172.31.4.239",
+  "src_port": 0,
+  "dest_ip": "8.8.8.8",
+  "dest_port": 0,
+  "proto": "ICMP",
+  "signature_id": 1000001,
+  "signature": "CODEALPHA ICMP Echo Request Detected",
+  "severity": 3
+}
+{
+  "timestamp": "2026-09-12T10:01:09.701705+0000",
+  "src_ip": "172.31.4.239",
+  "src_port": 0,
+  "dest_ip": "8.8.8.8",
+  "dest_port": 0,
+  "proto": "ICMP",
+  "signature_id": 1000001,
+  "signature": "CODEALPHA ICMP Echo Request Detected",
+  "severity": 3
+}
+{
+  "timestamp": "2026-09-12T10:18:10.548471+0000",
+  "src_ip": "172.31.4.239",
+  "src_port": 0,
+  "dest_ip": "8.8.8.8",
+  "dest_port": 0,
+  "proto": "ICMP",
+  "signature_id": 1000001,
+  "signature": "CODEALPHA ICMP Echo Request Detected",
+  "severity": 3
+}
+{
+  "timestamp": "2026-09-12T10:18:11.549979+0000",
+  "src_ip": "172.31.4.239",
+  "src_port": 0,
+  "dest_ip": "8.8.8.8",
+  "dest_port": 0,
+  "proto": "ICMP",
+  "signature_id": 1000001,
+  "signature": "CODEALPHA ICMP Echo Request Detected",
+  "severity": 3
+}
+{
+  "timestamp": "2026-09-12T10:18:12.551517+0000",
+  "src_ip": "172.31.4.239",
+  "src_port": 0,
+  "dest_ip": "8.8.8.8",
+  "dest_port": 0,
+  "proto": "ICMP",
+  "signature_id": 1000001,
+  "signature": "CODEALPHA ICMP Echo Request Detected",
+  "severity": 3
+}
+{
+  "timestamp": "2026-09-12T11:48:08.477326+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 7739,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:49.098103+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10536,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:49.397890+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10538,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:49.690371+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10539,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:49.988840+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10543,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:50.277479+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10547,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:50.575273+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10548,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:50.854039+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10552,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:51.133818+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10553,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:51.441958+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10554,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:51.738980+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10555,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:52.031324+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10556,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:52.344739+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10557,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:52.646900+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10497,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:52.942099+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10498,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:53.231336+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10502,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:53.525732+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10503,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:53.525732+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10503,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000003,
+  "signature": "CODEALPHA Possible TCP SYN Port Scan",
+  "severity": 2
+}
+{
+  "timestamp": "2026-09-12T11:51:53.824801+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10508,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:53.824801+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10508,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000003,
+  "signature": "CODEALPHA Possible TCP SYN Port Scan",
+  "severity": 2
+}
+{
+  "timestamp": "2026-09-12T11:51:54.129027+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10509,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:54.129027+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10509,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000003,
+  "signature": "CODEALPHA Possible TCP SYN Port Scan",
+  "severity": 2
+}
+{
+  "timestamp": "2026-09-12T11:51:54.423615+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10514,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:54.423615+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10514,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000003,
+  "signature": "CODEALPHA Possible TCP SYN Port Scan",
+  "severity": 2
+}
+{
+  "timestamp": "2026-09-12T11:51:54.714976+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10517,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000002,
+  "signature": "CODEALPHA Repeated SSH Connection Attempts",
+  "severity": 1
+}
+{
+  "timestamp": "2026-09-12T11:51:54.714976+0000",
+  "src_ip": "37.114.151.200",
+  "src_port": 10517,
+  "dest_ip": "172.31.4.239",
+  "dest_port": 22,
+  "proto": "TCP",
+  "signature_id": 1000003,
+  "signature": "CODEALPHA Possible TCP SYN Port Scan",
+  "severity": 2
+}

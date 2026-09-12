@@ -1,0 +1,10 @@
+2026-09-12T10:01:06.697792+0000 | 172.31.4.239 -> 8.8.8.8 | ICMP | Severity 3 | CODEALPHA ICMP Echo Request Detected
+2026-09-12T10:01:07.698591+0000 | 172.31.4.239 -> 8.8.8.8 | ICMP | Severity 3 | CODEALPHA ICMP Echo Request Detected
+2026-09-12T10:01:08.700132+0000 | 172.31.4.239 -> 8.8.8.8 | ICMP | Severity 3 | CODEALPHA ICMP Echo Request Detected
+2026-09-12T10:01:09.701705+0000 | 172.31.4.239 -> 8.8.8.8 | ICMP | Severity 3 | CODEALPHA ICMP Echo Request Detected
+2026-09-12T10:01:15.314751+0000 | 93.123.109.230 -> 172.31.4.239 | TCP | Severity 2 | ET DROP Spamhaus DROP Listed Traffic Inbound group 17
+2026-09-12T10:16:18.055269+0000 | 77.90.185.78 -> 172.31.4.239 | TCP | Severity 2 | ET DROP Spamhaus DROP Listed Traffic Inbound group 11
+2026-09-12T10:16:18.055269+0000 | 77.90.185.78 -> 172.31.4.239 | TCP | Severity 2 | ET DROP Dshield Block Listed Source group 1
+2026-09-12T10:18:10.548471+0000 | 172.31.4.239 -> 8.8.8.8 | ICMP | Severity 3 | CODEALPHA ICMP Echo Request Detected
+2026-09-12T10:18:11.549979+0000 | 172.31.4.239 -> 8.8.8.8 | ICMP | Severity 3 | CODEALPHA ICMP Echo Request Detected
+2026-09-12T10:18:12.551517+0000 | 172.31.4.239 -> 8.8.8.8 | ICMP | Severity 3 | CODEALPHA ICMP Echo Request Detected
